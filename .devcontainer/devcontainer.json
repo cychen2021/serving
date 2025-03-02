@@ -1,0 +1,22 @@
+{
+    "name": "Ubuntu",
+    "image": "tensorflow/serving:latest-devel",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "llvm-vs-code-extensions.vscode-clangd",
+                "Gruntfuggly.todo-tree",
+                "alefragnani.Bookmarks",
+                "vadimcn.vscode-lldb",
+                "donjayamanne.python-extension-pack",
+                "MatthewNespor.vscode-color-identifiers-mode",
+                "oderwat.indent-rainbow",
+                "ms-azuretools.vscode-docker",
+                "jnoortheen.xonsh",
+                "BazelBuild.vscode-bazel"
+            ]
+        }
+    },
+    "updateRemoteUserUID": true,
+    "postCreateCommand": "bash .devcontainer/install_tools.sh"
+}
