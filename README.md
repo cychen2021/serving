@@ -114,6 +114,11 @@ individually (e.g. batch scheduling) and/or extend it to serve new use cases.
 **If you'd like to contribute to TensorFlow Serving, be sure to review the
 [contribution guidelines](CONTRIBUTING.md).**
 
+Run
+```bash
+bazel run @hedron_compile_commands//:refresh_all
+```
+to generate compile_commands.json for clangd.
 
 ## For more information
 
